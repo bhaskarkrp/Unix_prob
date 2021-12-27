@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style type="text/css">
+        .container {
+            height: 500px;
+            width: 600px;
+            background-color: rgb(209, 201, 201);
+            margin: auto;
+            padding: 0.5em;
+        }
+        
+        .linus {
+            height: 260px;
+            width: 190px;
+            margin-left: 205px;
+        }
+        
+        .name {
+            color: rgb(63, 38, 63);
+            font-size: 3em;
+            font-weight: bolder;
+            text-align: center;
+        }
+        
+        .des {
+            font-size: 2em;
+            font-weight: larger;
+            color: black;
+            text-align: center;
+        }
+        
+        .table1 {
+            margin: auto;
+            padding: 3.5em;
+            width: 1000px;
+        }
+        
+        .khan_img {
+            height: 200px;
+            width: 150px;
+        }
+        
+        .khan_name {
+            font-size: 3em;
+            color: red;
+            font-weight: bolder;
+            margin-top: -0.1em;
+            padding-left: 25px;
+        }
+        
+        .khan_des {
+            font-size: 1.5em;
+            font-weight: larger;
+            padding-left: 25px;
+            margin-top: -0.3em;
+        }
+        
+        .table2 {
+            margin: auto;
+            width: 1500px;
+            height: 200px;
+            background-color: rgb(216, 84, 23);
+        }
+        
+        .line {
+            background-color: black;
+            width: 7px;
+            border-radius: 15%;
+        }
+        
+        .table2_name1 {
+            color: white;
+            font-weight: larger;
+            font-size: 2em;
+            padding: 0.5em;
+        }
+        
+        .table2_name2 {
+            color: white;
+            font-weight: larger;
+            font-size: 2em;
+            float: right;
+            padding: 1em;
+        }
+        
+        .table2_des1 {
+            font-weight: larger;
+            font-size: 1.5em;
+            padding-bottom: 0.5em;
+            padding-left: 0.5em;
+            width: 730px;
+        }
+        
+        .table2_des2 {
+            font-weight: larger;
+            font-size: 1.5em;
+            padding-bottom: 0.5em;
+            padding-right: 0.5em;
+            float: right;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div class="container">
+            <img class="linus" src="linus.jpg" alt="">
+            <p class="name"><strong>Linus Torvalds</strong></p>
+            <p class="des">The Creator of Linux & Git</p>
+
+        </div>
+
+        <div>
+            <table class="table1">
+                <tr>
+                    <td rowspan="2">
+                        <img class="khan_img" src="khan.jpg" alt="khan">
+                    </td>
+                    <td>
+                        <p class="khan_name">Sal Khan</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="khan_des">Salman khan is the founder of the khan Academy which has a mission of provviding a free world-class education for anyone, anywhere.</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- <div class="footer">
+            <h2 style="margin-top: 30px; margin-left: 10px;">Ken Thompson</h2>
+            <p class="desp1">Designed and implemented the original Unix operating system</p>
+
+            <h2 class="seco">Ken Thompson</h2>
+            <p class="desp1" style="float: right; margin-top: -45px; margin-right: -110px;;">Designed and implemented the original Unix operating system</p>
+        </div> -->
+
+        <div>
+            <table class="table2">
+                <tr>
+                    <td class="table2_name1">Ken Thompson</td>
+                    <td class="line" rowspan="2"></td>
+                    <td class="table2_name2">Dennis Ritchie</td>
+                </tr>
+                <tr>
+                    <td class="table2_des1">Designed and implemented the original Unix operating system</td>
+                    <td class="table2_des2">The Creator of C Programming Language</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
